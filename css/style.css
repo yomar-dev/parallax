@@ -1,0 +1,30 @@
+*{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+section{
+	background-attachment: fixed;
+	line-height: 100vh;
+	text-align: center;
+}
+
+
+section p{
+	margin: 0;
+	background: rgba(#000, .5);
+	color: #fff;
+	font-size: 4em;
+	text-shadow: 5px 5px 15px #000;
+}
+
+.uno{
+	background-image: url('https://www.movichhotels.com/PublishingImages/nuestras-ciudades-home/movich_cartagena_.jpg');
+	background-size: cover;
+}
+
+.dos{
+	background-image: url('http://blogs-images.forbes.com/kenrapoza/files/2016/12/Cartagena-1200x675.jpg');
+	background-size: cover;
+}
