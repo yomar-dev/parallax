@@ -4,27 +4,43 @@
 	padding: 0;
 }
 
-section{
-	background-attachment: fixed;
+body{
+	background: url('https://www.movichhotels.com/PublishingImages/nuestras-ciudades-home/movich_cartagena_.jpg');
+	background-size: auto 150vh;
+	background-position: center 0;
+}
+
+h1{
+	//background-color: steelblue;
+	background: rgba(70, 130, 180, .5);
+}
+
+h1, footer{
+	color: #fff;
 	line-height: 100vh;
+	font-size: 3em;
 	text-align: center;
 }
 
+footer{
+	background: url('http://blogs-images.forbes.com/kenrapoza/files/2016/12/Cartagena-1200x675.jpg');
+	background-size: auto 120vh;
+	background-position: center 0;
+}
 
-section p{
-	margin: 0;
-	background: rgba(#000, .5);
+footer p{
+	background: rgba(0, 0, 0, .5);
+}
+
+.page{
 	color: #fff;
-	font-size: 4em;
-	text-shadow: 5px 5px 15px #000;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 1.6em;
 }
 
-.uno{
-	background-image: url('https://www.movichhotels.com/PublishingImages/nuestras-ciudades-home/movich_cartagena_.jpg');
-	background-size: cover;
-}
-
-.dos{
-	background-image: url('http://blogs-images.forbes.com/kenrapoza/files/2016/12/Cartagena-1200x675.jpg');
-	background-size: cover;
+.page p{
+	margin: 1.5em 0em;
 }
